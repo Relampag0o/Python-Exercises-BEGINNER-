@@ -23,6 +23,10 @@ else:
 
 
 print("COMPARADOR DE NÚMEROS")
+print("Inserte el primer numero")
+num1 = input()
 
+print("Inserte el segundo numero")
+num2 = input()
 
 
