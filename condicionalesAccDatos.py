@@ -23,10 +23,27 @@ else:
 
 
 print("COMPARADOR DE NÚMEROS")
-print("Inserte el primer numero")
+print("Inserte el primer número")
 num1 = input()
 
-print("Inserte el segundo numero")
+print("Inserte el segundo número")
 num2 = input()
+
+if num1>num2:
+    print("El número " + str(num1) + " es mayor.")
+else:
+    if num2>num1:
+        print("El número " + str(num2) + " es mayor.")
+        
+    else:
+        print("Son iguales")
+
+
+
+        
+
+
+
+        
 
 
